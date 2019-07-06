@@ -1,0 +1,25 @@
+{
+  "name": "bitcoin-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augmentchinedu/bitcoin-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augmentchinedu/bitcoin-server/issues"
+  },
+  "homepage": "https://github.com/augmentchinedu/bitcoin-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "vhost": "^3.0.2"
+  }
+}
