@@ -1,0 +1,36 @@
+{
+    "steps": [
+        {
+            "name": "gcr.io/cloud-builders/git",
+            "args": [
+                "clone",
+                "https://github.com/augmentchinedu/bitcoin-server"
+            ]
+        },
+        {
+            "name": "gcr.io/cloud-builders/git",
+            "args": [
+                "submodule",
+                "update",
+                "--init",
+                "--recursive"
+            ]
+        },
+        {
+            "name": "gcr.io/cloud-builders/git",
+            "args": [
+                "submodule",
+                "update",
+                "--recursive",
+                "--remote"
+            ]
+        },
+        {
+            "name": "gcr.io/cloud-builders/gcloud",
+            "args": [
+                "app",
+                "deploy"
+            ]
+        }
+    ]
+}

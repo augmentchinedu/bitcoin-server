@@ -1,0 +1,3 @@
+[submodule "domains/cryptrill.com"]
+	path = domains/cryptrill.com
+	url = https://github.com/augmentchinedu/cryptrill.com

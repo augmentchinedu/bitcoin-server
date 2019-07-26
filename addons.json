@@ -1,0 +1,10 @@
+[
+    {
+        "domain": "www.cryptrill.com",
+        "path": "domains/cryptrill.com/dist/"
+    },
+    {
+        "domain": "cryptrill.com",
+        "path": "domains/cryptrill.com/dist/"
+    }
+]
